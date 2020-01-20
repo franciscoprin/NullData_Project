@@ -1,70 +1,18 @@
-# form_wrapper ![Build Status](https://travis-ci.org/Xfennec/progress.svg?branch=master)
-An easier way to write forms. 
+# Project ![Build Status](https://travis-ci.org/Xfennec/progress.svg?branch=master)
+I am not that experience with Laravel, I hope that it doesn’t disqualified me, 
+because I used Django. 
   
-* <img src="./RnD/phase_1.png" width="600 px" height="300 px"/>
+* <img src="./RnD/infrasctructure.jpg" width="600 px" height="300 px"/>
 
+## VISION
+* <img src="./RnD/userInterface.jpg" width="600 px" height="300 px"/>
+* <img src="./RnD/userInterface.jpg" width="600 px" height="300 px"/>
 
-## Motivation:
-- **Code:**
-  ```javascript
-  import React from 'react'
-  import { formWrapper, Email, TextArea, Button } from '../components/basics'
-
-  class Page extends React.Component {
-    static async getInitialProps ({ store }) {
-      await store.dispatch(someAsyncAction())
-      return {}
-    }
-
-    render () {
-      return (
-          <Form>
-              <Email id="myEmail"> email@example.com </Email>
-              <TextArea id="userComments"> Your comments </TextArea>
-              <Button url="https://localhost:8003" post> Submit </Button>
-          </Form>
-      )
-    }
-  }
-  ```
-- **Request:**
-  - URL: `https://localhost:8003`
-  - Method: `POST`
-  - Body: 
-      ```json
-      {
-        "myEmail":"email@example.com",
-        "userComments":"Your comments"
-      }
-      ```
-
-## Getting Started
-
-- **Requirements:**
-  - `Python 3.6`
-  - `Node v8.11.1`
-
-- **Install dependencies:**
-  ```
-    npm install && pip install -r ./backend/requirements.txt
-  ```
-- **Run backend:**
-  ```
-    python manage.py runserver
-  ```
-- **Run frontend (in a different shell):**
-  ```
-    npm run dev
-  ```
-
-## Acknowledgements:
-- redux-form and nextjs integration:
-    https://gist.github.com/rockchalkwushock/ad9219314fb18ab736fc9b7e3c694c7a
-- this.props.children manipulation:
-    https://mxstbr.blog/2017/02/react-children-deepdive/
-
-## Todo:
-1) The request's method and url are hardcoded in the redux action.
-2) Styled each component, (The form ui has to be improved).
-3) Dockerized application.
-4) Write unit testing.
+## TODO
+* Fields Authentication.
+* Create a view for each employee where his personal information is shown.
+* Translate their address to geographic coordinates using google maps, and save that information in the database.
+* Create a superuser dashboard.
+* The super admin should be capable to change employees information.
+* Create a dashboard for employees (it should allow them to modify their information.).
+* Implement indexDB to speed up response, and allow the user to have access to some records when the they lose internet connection.
