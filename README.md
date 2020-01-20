@@ -2,7 +2,7 @@
 I am not that experience with Laravel, I hope that it doesn’t disqualified me, 
 because I used Django. 
   
-* <img src="./RnD/infrasctructure.jpg" width="4,076.0 px" height="902.0 px"/>
+* <img src="./RnD/infrasctructure.jpg" width="8 rem" height="auto"/>
 
 ## VISION
 * <img src="./RnD/userInterface.jpg" width="7,598.0 px" height="9,153.0 px"/>
