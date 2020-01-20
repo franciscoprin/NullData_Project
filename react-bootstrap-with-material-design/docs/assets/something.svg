@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2.92997in" height="3.82621in" >
+    <rect  x="2304.5" y="504.5" width="148" height="344"/>
+    <circle cx="50.5" cy="50.5" r="50"/>
+    <ellipse cx="486.5" cy="1115.5" rx="30" ry="113" transform="translate(1630.92 -204.48) rotate(-20.06)"/>
+    <ellipse cx="270.5" cy="1098.5" rx="113" ry="30" transform="translate(1214.04 215.29) rotate(-53.05)"/>
+    <ellipse cx="2378" cy="431" rx="131.5" ry="97.5"/>
+    <ellipse  
+        cx="291.5" 
+        cy="1345.5" 
+        rx="113" 
+        ry="30" 
+        transform="translate(1025.03 330.59) rotate(-53.05)"
+    />
+    <ellipse  
+        bookfill="orange" 
+        cx="468.5" 
+        cy="1351.5" 
+        rx="30" 
+        ry="113" 
+        transform="translate(1548.89 -196.34) rotate(-20.06)"
+    />
+</svg>
