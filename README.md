@@ -2,11 +2,11 @@
 I am not that experience with Laravel, I hope that it doesn’t disqualified me, 
 because I used Django. 
   
-* <img src="./RnD/infrasctructure.jpg" width="600 px" height="300 px"/>
+* <img src="./RnD/infrasctructure.jpg" width="700 px" height="600 px"/>
 
 ## VISION
-* <img src="./RnD/userInterface.jpg" width="600 px" height="300 px"/>
-* <img src="./RnD/userInterface.jpg" width="600 px" height="300 px"/>
+* <img src="./RnD/userInterface.jpg" width="1000 px" height="500 px"/>
+* <img src="./RnD/employeeInterface.jpg" width="1000 px" height="500 px"/>
 
 ## TODO
 * Fields Authentication.
